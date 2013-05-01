@@ -1,0 +1,162 @@
+include:
+//Flurry
+//s3eExtFlurry
+//no_init_term
+
+#include <s3eTypes.h>
+
+/**
+ * @defgroup flurryapigroup Flurry Extension API Reference
+ *
+ * This extension allows the application to interact with the Flurry
+ * metrics system.
+ *
+ * It is currently supported on iPhone only.
+ *
+ * @{
+ */
+
+const int32 S3E_FLURRY_PARAM_MAX_CHARS = 255; /**!< max number of chars in string */
+ 
+struct s3eFlurryParam
+{
+	char key[S3E_FLURRY_PARAM_MAX_CHARS + 1];
+	char value[S3E_FLURRY_PARAM_MAX_CHARS + 1];
+};
+ 
+functions:
+
+/**
+ * Initialises a new session with the API key.
+ *
+ * @param apiKey        The applications Flurry API key.
+ */
+void s3eFlurryStartSession(const char* apiKey) NULL
+
+void s3eFlurryEndSession() NULL
+
+/**
+ * Use logEvent to count the number of times certain events happen during a 
+ * session of your application.  This can be useful for measuring how often users
+ * perform various actions, for example.  Your application is currently limited
+ * to counting occurrences for 100 different event ids (maximum length 255
+ * characters). 
+ *
+ * @param eventName		 String identifier for the event.
+ */
+void s3eFlurryLogEvent(const char* eventName) NULL
+
+/**
+ * Call this for a timed event.
+ * Use logEvent to count the number of times certain events happen during a 
+ * session of your application.  This can be useful for measuring how often users
+ * perform various actions, for example.  Your application is currently limited
+ * to counting occurrences for 100 different event ids (maximum length 255
+ * characters). 
+ *
+ * @param eventName		 String identifier for the event.
+ */
+void s3eFlurryLogEventTimed(const char* eventName) NULL
+
+/**
+ * Use this version of logEvent to count the number of times certain events happen
+ * during a session of your application and to pass dynamic parameters to be
+ * recorded with that event. Event parameters can be passed in as a s3eFlurryParams
+ * array. For example, you could record that a user used your search box tool 
+ * and also dynamically record which search terms the user entered.  Your 
+ * application is currently limited to counting occurrences for 100 different
+ * event ids (maximum length 255 characters). Maximum of 10 event parameters per
+ * event is supported.
+ *
+ * @param eventName		String identifier for the event.
+ * @param eventParams	(key, value) string pairs to be stored with event.
+ * @par Required Header Files
+ * s3eExt_Flurry.h
+ */
+void s3eFlurryLogEventParams(const char* eventName, const char* eventParams) NULL
+
+/**
+ * Use this for a timed event.
+ * Use this version of logEvent to count the number of times certain events happen
+ * during a session of your application and to pass dynamic parameters to be
+ * recorded with that event. Event parameters can be passed in as a s3eFlurryParams
+ * array. For example, you could record that a user used your search box tool 
+ * and also dynamically record which search terms the user entered.  Your 
+ * application is currently limited to counting occurrences for 100 different
+ * event ids (maximum length 255 characters). Maximum of 10 event parameters per
+ * event is supported.
+ *
+ * @param eventName		 String identifier for the event.
+ * @param eventParams	(key, value) string pairs to be stored with event.
+ * @par Required Header Files
+ * s3eExt_Flurry.h
+ */
+void s3eFlurryLogEventParamsTimed(const char* eventName, const char* eventParams) NULL
+
+/**
+ * Use endTimedEvent to end timed event before app exists, otherwise timed events
+ * automatically end when app exits. When ending the timed event, a new event 
+ * parameters array can be used to update event parameters. To keep event 
+ * parameters the same, pass in nil for the event parameters array and 0 for numParams.
+ *
+ * @param eventName		 String identifier for the event.
+ * @param eventParams	(key, value) string pairs to be stored with event.
+ * @par Required Header Files
+ * s3eExt_Flurry.h
+ */
+void s3eFlurryEndTimedEvent(const char* eventName, const char* eventParams) NULL
+
+/**
+ * Use this to log exceptions and/or errors that occur in your app. Flurry will
+ * report the first 10 errors that occur in each session.
+ *
+ * @param errorName		Error type identifier
+ * @param message		Details of error
+ */
+void s3eFlurryLogError(const char* errorName, const char* message) NULL
+
+/**
+ * Use this to log the user's assigned ID or username in your system after 
+ * identifying the user.
+ *
+ * @param userId		User ID string
+ */
+void s3eFlurrySetUserID(const char* userId) NULL
+
+/**
+ * Use this to log the user age after identifying the user. 
+ *
+ * @param age      		Age of the user (Valid inputs are 0 or greater)
+ */
+void s3eFlurrySetAge(int32 age) NULL
+
+/**
+ * For each user interaction you want to manually log, you can use countPageView 
+ * to log the page view.
+ */
+void s3eFlurryCountPageView() NULL
+
+/**
+ * This option is on by default. When enabled, Flurry will attempt to send session 
+ * data when the app is exited as well as it normally does when the app is started.
+ * This will improve the speed at which your application analytics are updated but 
+ * can prolong the app termination process due to network latency. In some cases, 
+ * the network latency can cause the app to crash.
+ *
+ * @param sendSessionReportsOnClose       S3E_TRUE/S3E_FALSE to control whether this happens.
+ */
+void s3eFlurrySetSessionReportsOnCloseEnabled(s3eBool sendSessionReportsOnClose) NULL
+
+/**
+ * This option is on by default. When enabled, Flurry will attempt to send session
+ * data when the app is paused as well as it normally does when the app is started.
+ * This will improve the speed at which your application analytics are updated but 
+ * can prolong the app pause process due to network latency. In some cases, the 
+ * network latency can cause the app to crash.
+ *
+ * @param sendSessionReportsOnPause       S3E_TRUE/S3E_FALSE to control whether this happens.
+ */
+void s3eFlurrySetSessionReportsOnPauseEnabled(s3eBool sendSessionReportsOnPause) NULL
+
+append:
+/**@}*/
