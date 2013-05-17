@@ -35,15 +35,15 @@ void s3eFlurryLogEventTimed_platform(const char* eventName)
 {
 }
 
-void s3eFlurryLogEventParams_platform(const char* eventName, struct s3eFlurryParam* params, int32 numParams)
+void s3eFlurryLogEventParams_platform(const char* eventName, const char* params)
 {
 }
 
-void s3eFlurryLogEventParamsTimed_platform(const char* eventName, struct s3eFlurryParam* params, int32 numParams)
+void s3eFlurryLogEventParamsTimed_platform(const char* eventName, const char* params)
 {
 }
 
-void s3eFlurryEndTimedEvent_platform(const char* eventName, struct s3eFlurryParam* params, int32 numParams)
+void s3eFlurryEndTimedEvent_platform(const char* eventName, const char* params)
 {
 }
 

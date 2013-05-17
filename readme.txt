@@ -24,7 +24,7 @@ Analytics only
 if (FlurryAvailable())
 {
 	s3eFlurryStartSession(api_key);
-	s3eFlurryLogEvent("my event 1")
+	s3eFlurryLogEvent("my event 1");
 	s3eFlurryEndSession();
 }
 
