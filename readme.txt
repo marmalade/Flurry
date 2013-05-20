@@ -38,3 +38,6 @@ if (FlurryAvailable())
 
 > Log an error example:
 s3eFlurryLogError("error name", "error message");
+
+> Android specific:
+In order to get full statistics, call s3eFlurryEndSession() on S3E_DEVICE_PAUSE, and s3eFlurryStartSession(api_key) again on S3E_DEVICE_UNPAUSE 
