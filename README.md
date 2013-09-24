@@ -1,15 +1,15 @@
->
-> Flurry Analytics API for the Marmalade SDK
->
+Flurry Analytics for Marmalade
+==============================
 
 > What is the Flurry API for Marmalade?
 The Flurry API for Marmalade is a cross platform analytics API that is compatible with the Marmalade SDK (see http://www.madewithmarmalade.com)
 
-> What version of the Flurry API is supported?
-Version 4.1.0 of the Flurry API has been used to create this extension
-
 > Which platforms are supported?
 Android and iOS
+
+> What version of the Flurry API is supported?
+iPhone 4.2.3
+Android 3.2.2
 
 > What features are supported?
 Analytics only

@@ -1,0 +1,19 @@
+#!/usr/bin/env mkb
+files
+{
+    s3eFlurry.cpp
+}
+
+subprojects
+{
+    Flurry
+	iwgx
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	android-manifest='AndroidManifest.xml'
+	app-icf='data/app.icf'
+	caption='s3eFlurry'
+}
