@@ -22,35 +22,40 @@ This Marmalade extension was built to provide support for Flurry analytics in yo
 4. Refer to the file `Flurry.h` for more information on the supplied functionality
 
 ### Initializing Flurry
-```if (FlurryAvailable())
+```cpp
+if (FlurryAvailable())
 {
 	s3eFlurryStartSession(YOUR_FLURRY_API_KEY_HERE);
 }
 ```
 
 #### Logging a simple event
-```if (FlurryAvailable())
+```cpp
+if (FlurryAvailable())
 {
 	s3eFlurryLogEvent("EVENT_NAME");
 }
 ```
 
 #### Logging an event with parameters
-```if (FlurryAvailable())
+```cpp
+if (FlurryAvailable())
 {
 	s3eFlurryLogEventParams("EVENT_NAME", "KEY1|VALUE1|KEY2|VALUE2|KEY3|VALUE3");
 }
 ```
 
 ### Logging an error
-```if (FlurryAvailable())
+```cpp
+if (FlurryAvailable())
 {
     s3eFlurryLogError("ERROR_NAME", "ERROR_MESSAGE");
 }
 ```
 
 ### Terminating Flurry
-```if (FlurryAvailable())
+```cpp
+if (FlurryAvailable())
 {
     s3eFlurryEndSession();
 }
