@@ -1,43 +1,61 @@
 Flurry Analytics for Marmalade
 ==============================
 
-> What is the Flurry API for Marmalade?
-The Flurry API for Marmalade is a cross platform analytics API that is compatible with the Marmalade SDK (see http://www.madewithmarmalade.com)
+This Marmalade extension was built to provide support for Flurry analytics in your Marmalade-based mobile app.
 
-> Which platforms are supported?
-Android and iOS
+#### Supported Platforms
+1. Android
+2. iOS
 
-> What version of the Flurry API is supported?
-iPhone 4.2.3
-Android 3.2.2
+#### Flurry SDK Versions
+1. Android 3.2.2
+2. iPhone 4.2.3
 
-> What features are supported?
-Analytics only
+#### Supported Features
+1. Analytics only
 
-> How to use the Flurry APi for Marmalade
-1. Copy the Flurry folder to the modules folder of your Marmalade SDK installation
-2. Add Flurry to the subprojects section of your MKB file
-3. Add #include "Flurry.h" to the source file(s) that will use the extension
-4. See Flurry.h for more information on how to use the suplied functionality
+## Using the Marmalade Flurry API
 
-> Simple log event example:
-if (FlurryAvailable())
+1. Clone this whole folder into your project
+2. Add "Flurry" to the subprojects section of your MKB file
+3. Add `#include "Flurry.h"` to the source files where it will be used
+4. Refer to the file `Flurry.h` for more information on the supplied functionality
+
+### Initializing Flurry
+```if (FlurryAvailable())
 {
-	s3eFlurryStartSession(api_key);
-	s3eFlurryLogEvent("my event 1");
-	s3eFlurryEndSession();
+	s3eFlurryStartSession(YOUR_FLURRY_API_KEY_HERE);
 }
+```
 
-> Log multiple parameter event example:
-if (FlurryAvailable())
+#### Logging a simple event
+```if (FlurryAvailable())
 {
-	s3eFlurryStartSession(api_key);
-	s3eFlurryLogEventParams("my event 2", "key1|value1|key2|value2|key3|value3");
-	s3eFlurryEndSession();
+	s3eFlurryLogEvent("EVENT_NAME");
 }
+```
 
-> Log an error example:
-s3eFlurryLogError("error name", "error message");
+#### Logging an event with parameters
+```if (FlurryAvailable())
+{
+	s3eFlurryLogEventParams("EVENT_NAME", "KEY1|VALUE1|KEY2|VALUE2|KEY3|VALUE3");
+}
+```
 
-> Android specific:
-In order to get full statistics, call s3eFlurryEndSession() on S3E_DEVICE_PAUSE, and s3eFlurryStartSession(api_key) again on S3E_DEVICE_UNPAUSE 
+### Logging an error
+```if (FlurryAvailable())
+{
+    s3eFlurryLogError("ERROR_NAME", "ERROR_MESSAGE");
+}
+```
+
+### Terminating Flurry
+```if (FlurryAvailable())
+{
+    s3eFlurryEndSession();
+}
+```
+
+## Notes
+* Flurry's API supports a maximum of 10 parameters per event as of this writing.
+* In order to correctly get full statistics on Android, call `s3eFlurryEndSession()` on `S3E_DEVICE_PAUSE` and `s3eFlurryStartSession(YOUR_FLURRY_API_KEY_HERE)` again on `S3E_DEVICE_UNPAUSE`
