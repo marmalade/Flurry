@@ -29,7 +29,7 @@ if (FlurryAvailable())
 }
 ```
 
-#### Logging a simple event
+##### Logging a simple event
 ```cpp
 if (FlurryAvailable())
 {
@@ -37,7 +37,7 @@ if (FlurryAvailable())
 }
 ```
 
-#### Logging an event with parameters
+##### Logging an event with parameters
 ```cpp
 if (FlurryAvailable())
 {
@@ -45,7 +45,7 @@ if (FlurryAvailable())
 }
 ```
 
-### Logging an error
+##### Logging an error
 ```cpp
 if (FlurryAvailable())
 {
@@ -53,7 +53,7 @@ if (FlurryAvailable())
 }
 ```
 
-### Terminating Flurry
+##### Terminating Flurry
 ```cpp
 if (FlurryAvailable())
 {
