@@ -21,7 +21,7 @@ This Marmalade extension was built to provide support for Flurry analytics in yo
 3. Add `#include "Flurry.h"` to the source files where it will be used
 4. Refer to the file `Flurry.h` for more information on the supplied functionality
 
-### Initializing Flurry
+##### Initializing Flurry
 ```cpp
 if (FlurryAvailable())
 {
@@ -29,7 +29,7 @@ if (FlurryAvailable())
 }
 ```
 
-#### Logging a simple event
+##### Logging a simple event
 ```cpp
 if (FlurryAvailable())
 {
@@ -37,7 +37,7 @@ if (FlurryAvailable())
 }
 ```
 
-#### Logging an event with parameters
+##### Logging an event with parameters
 ```cpp
 if (FlurryAvailable())
 {
@@ -45,7 +45,7 @@ if (FlurryAvailable())
 }
 ```
 
-### Logging an error
+##### Logging an error
 ```cpp
 if (FlurryAvailable())
 {
@@ -53,7 +53,7 @@ if (FlurryAvailable())
 }
 ```
 
-### Terminating Flurry
+##### Terminating Flurry
 ```cpp
 if (FlurryAvailable())
 {
