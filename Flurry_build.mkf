@@ -46,6 +46,17 @@ if {{defined I3D_OS_IPHONE}}
     }
 }
 
+if {{defined I3D_OS_WINDOWS}}
+{
+    files
+    {
+        ["source"]
+        (use_first_found, source/windows, source/generic)
+        Flurry_platform.cpp
+        #Add any windows-specific files here
+    }
+}
+
 if {{defined S3E_ANDROID}}
 {
     files
