@@ -16,7 +16,7 @@ This Marmalade extension was built to provide support for Flurry analytics in yo
 
 ## Using the Marmalade Flurry API
 
-1. Clone this whole folder into your project
+1. Clone this whole folder into your project (or add it as a submodule)
 2. Add "Flurry" to the subprojects section of your MKB file
 3. Add `#include "Flurry.h"` to the source files where it will be used
 4. Refer to the file `Flurry.h` for more information on the supplied functionality
