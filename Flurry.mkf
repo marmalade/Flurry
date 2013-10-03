@@ -50,7 +50,7 @@ deployments
     
     iphone-link-opts="-framework Security"
 
-    iphone-link-lib="Flurry_4.2.3"
+    iphone-link-lib="Flurry_4.2.4"
     iphone-link-lib="Flurry"
     iphone-link-libdir="lib/iphone"
     iphone-link-libdir="flurry/iphone"
