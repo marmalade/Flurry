@@ -11,7 +11,7 @@
 s3eResult FlurryInit_platform()
 {
     // Add any platform-specific initialisation code here
-    return S3E_RESULT_SUCCESS;
+    return S3E_RESULT_SUCCESS; // We need this to ensure the extension is loaded (and breakpoints are hit) when debugging on Windows so we don't always have to deploy to devices for basic testing.
 }
 
 void FlurryTerminate_platform()
@@ -35,15 +35,15 @@ void s3eFlurryLogEventTimed_platform(const char* eventName)
 {
 }
 
-void s3eFlurryLogEventParams_platform(const char* eventName, const char* params)
+void s3eFlurryLogEventParams_platform(const char* eventName, const char* eventParams)
 {
 }
 
-void s3eFlurryLogEventParamsTimed_platform(const char* eventName, const char* params)
+void s3eFlurryLogEventParamsTimed_platform(const char* eventName, const char* eventParams)
 {
 }
 
-void s3eFlurryEndTimedEvent_platform(const char* eventName, const char* params)
+void s3eFlurryEndTimedEvent_platform(const char* eventName, const char* eventParams)
 {
 }
 

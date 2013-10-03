@@ -36,8 +36,8 @@ if {{defined I3D_OS_IPHONE}}
 #        "*.o"
 
         ["source/flurry_api"]
-        (use_first_found, source/iphone/Flurry)
-        FlurryAPI.h
+        (use_first_found, flurry/iphone)
+        Flurry.h
 
         ["source"]
         (use_first_found, source/iphone, source/generic)

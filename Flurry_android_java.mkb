@@ -10,6 +10,6 @@ files
 
 librarypath "$MARMALADE_ROOT/s3e/deploy/plugins/android/android.jar"
 librarypath "$MARMALADE_ROOT/s3e/loader/android/s3e_release.jar"
-librarypath "lib/android/FlurryAgent.jar"
+librarypath "flurry/android/Flurry_3.2.2.jar"
 
 option output-name=lib/android/Flurry.jar
