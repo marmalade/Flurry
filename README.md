@@ -9,7 +9,7 @@ This Marmalade extension was built to provide support for Flurry analytics in yo
 
 #### Flurry SDK Versions
 1. Android 3.2.2
-2. iPhone 4.2.3
+2. iPhone 4.2.4
 
 #### Supported Features
 1. Analytics only
