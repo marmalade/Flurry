@@ -108,7 +108,7 @@ s3eResult FlurryInit_platform()
     IwTrace(FLURRY, ("FLURRY init success"));
     g_Obj = env->NewGlobalRef(obj);
     env->DeleteLocalRef(obj);
-    env->DeleteLocalRef(cls);
+    env->DeleteGlobalRef(cls);
 
     // Add any platform-specific initialisation code here
     return S3E_RESULT_SUCCESS;
@@ -160,53 +160,6 @@ void s3eFlurryLogEventTimed_platform(const char* eventName)
     env->CallVoidMethod(g_Obj, g_s3eFlurryLogEventTimed, eventName_jstr);
 	env->DeleteLocalRef(eventName_jstr);
 }
-static jobject CreateParamsHashMap(struct s3eFlurryParam* params, int32 numParams)
-{
-	if (!numParams)
-		return NULL;
-		
-	JNIEnv* env = s3eEdkJNIGetEnv();	
-	
-	//get hash map class
-	jclass mapClass =  env->FindClass("java/util/HashMap");
-	if(mapClass == NULL)
-	{
-		jthrowable exc = env->ExceptionOccurred();
-		if (exc)
-		{
-			env->ExceptionDescribe();
-			env->ExceptionClear();
-			IwTrace(FLURRY, ("java/util/HashMap class could not be found"));
-			return NULL;
-		}
-	}
-	
-	//create hashmap object
-	jmethodID init = env->GetMethodID(mapClass, "<init>", "(I)V");
-	
-#if 0 
-	//todo v1.1
-	jobject hashMap = env->NewObject(mapClass, init, numParams);
-	
-	//fill map
-	for (int ic=0;ic<numParams;ic++)
-	{
-		jstring key = env->NewStringUTF(params[ic].key);
-		jstring data = env->NewStringUTF(params[ic].value);
-
-		env->CallObjectMethod(hashMap, put, key, data);
-
-		env->DeleteLocalRef(key);
-		env->DeleteLocalRef(dd);
-	}
-#else
-	jobject hashMap = env->NewObject(mapClass, init, 0);
-#endif
-
-	env->DeleteLocalRef(mapClass);
-	
-	return hashMap;
-}	
 
 void s3eFlurryLogEventParams_platform(const char* eventName, const char* eventParams)
 {
@@ -214,14 +167,10 @@ void s3eFlurryLogEventParams_platform(const char* eventName, const char* eventPa
     jstring eventName_jstr = env->NewStringUTF(eventName);
     jstring eventParams_jstr = env->NewStringUTF(eventParams);
 	
-//	jobject hashMap = CreateParamsHashMap(params,numParams);
-
-//	env->CallVoidMethod(g_Obj, g_s3eFlurryLogEventParams, eventName_jstr, hashMap);
 	env->CallVoidMethod(g_Obj, g_s3eFlurryLogEventParams, eventName_jstr, eventParams_jstr);
 		
 	env->DeleteLocalRef(eventParams_jstr);
 	env->DeleteLocalRef(eventName_jstr);
-//	env->DeleteLocalRef(hashMap);
 }
 
 void s3eFlurryLogEventParamsTimed_platform(const char* eventName, const char* eventParams)
@@ -230,14 +179,10 @@ void s3eFlurryLogEventParamsTimed_platform(const char* eventName, const char* ev
     jstring eventName_jstr = env->NewStringUTF(eventName);
     jstring eventParams_jstr = env->NewStringUTF(eventParams);
     	
-//	jobject hashMap = CreateParamsHashMap(params,numParams);
-
-//	env->CallVoidMethod(g_Obj, g_s3eFlurryLogEventParamsTimed, eventName_jstr, hashMap);
 	env->CallVoidMethod(g_Obj, g_s3eFlurryLogEventParamsTimed, eventName_jstr, eventParams_jstr);
 		
 	env->DeleteLocalRef(eventParams_jstr);
 	env->DeleteLocalRef(eventName_jstr);
-//	env->DeleteLocalRef(hashMap);	
 }
 
 void s3eFlurryEndTimedEvent_platform(const char* eventName, const char* eventParams)
@@ -245,15 +190,11 @@ void s3eFlurryEndTimedEvent_platform(const char* eventName, const char* eventPar
     JNIEnv* env = s3eEdkJNIGetEnv();
     jstring eventName_jstr = env->NewStringUTF(eventName);
     jstring eventParams_jstr = env->NewStringUTF(eventParams);
-
-//	jobject hashMap = CreateParamsHashMap(params,numParams);
-
-//	env->CallVoidMethod(g_Obj, g_s3eFlurryEndTimedEvent, eventName_jstr, hashMap);
+    
 	env->CallVoidMethod(g_Obj, g_s3eFlurryEndTimedEvent, eventName_jstr, eventParams_jstr);
 	
 	env->DeleteLocalRef(eventParams_jstr);
 	env->DeleteLocalRef(eventName_jstr);
-//	env->DeleteLocalRef(hashMap);
 }
 
 void s3eFlurryLogError_platform(const char* errorName, const char* message)
@@ -261,7 +202,9 @@ void s3eFlurryLogError_platform(const char* errorName, const char* message)
     JNIEnv* env = s3eEdkJNIGetEnv();
     jstring errorName_jstr = env->NewStringUTF(errorName);
     jstring message_jstr = env->NewStringUTF(message);
+    
     env->CallVoidMethod(g_Obj, g_s3eFlurryLogError, errorName_jstr, message_jstr);
+    
 	env->DeleteLocalRef(errorName_jstr);
 	env->DeleteLocalRef(message_jstr);
 }
@@ -270,7 +213,9 @@ void s3eFlurrySetUserID_platform(const char* userId)
 {
     JNIEnv* env = s3eEdkJNIGetEnv();
     jstring userId_jstr = env->NewStringUTF(userId);
+    
     env->CallVoidMethod(g_Obj, g_s3eFlurrySetUserID, userId_jstr);
+    
 	env->DeleteLocalRef(userId_jstr);
 }
 

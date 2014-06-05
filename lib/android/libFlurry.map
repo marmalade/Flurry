@@ -1,14 +1,14 @@
 Archive member included because of file (symbol)
 
-C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
                               release\Flurry_platform.os (s3eEdkThreadRunOnOS)
 
 Discarded input sections
 
- .text          0x00000000       0x14 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .bss           0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .text          0x00000000       0x14 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
  .note.GNU-stack
-                0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+                0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
  .group         0x00000000        0x8 release\Flurry_platform.os
  .group         0x00000000        0x8 release\Flurry_platform.os
  .text          0x00000000        0x0 release\Flurry_platform.os
@@ -27,20 +27,20 @@ Discarded input sections
                 0x00000000      0x160 release\Flurry_register.os
  .note.GNU-stack
                 0x00000000        0x0 release\Flurry_register.os
- .text          0x00000000        0x0 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
- .data          0x00000000        0x0 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
- .bss           0x00000000        0x0 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
  .text.s3eEdkThreadRunOnOSAsync
-                0x00000000       0x30 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x00000000       0x30 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
  .text.s3eEdkErrorSetString
-                0x00000000       0x30 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x00000000       0x30 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
  .note.GNU-stack
-                0x00000000        0x0 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
- .text          0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
- .data          0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
- .bss           0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x00000000        0x0 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
  .note.GNU-stack
-                0x00000000        0x0 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x00000000        0x0 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
 
 Memory map
 
@@ -74,7 +74,7 @@ Memory map
  ** PLT         0x000003b8       0x44
 
 .text           0x000003fc      0xdc0
- .text.exit     0x000003fc       0x10 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .text.exit     0x000003fc       0x10 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
                 0x000003fc                __on_dlclose
  .text._ZL27s3eEdkAndroidFindClass_realPKc
                 0x0000040c       0xb8 release\Flurry_platform.os
@@ -178,7 +178,7 @@ Memory map
                 0x0000102c      0x160 release\Flurry_register.os
                 0x0000102c                RegisterExt
  .text.s3eEdkThreadRunOnOS
-                0xffffffffffffffff       0x30 C:\Marmalade\6.4\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0xffffffffffffffff       0x30 C:\marmalade\7.2\s3e\edk\lib\android/libedk.a(edk_helpers.o)
                 0x0000118c                s3eEdkThreadRunOnOS
 
 .rodata         0x000011bc      0x1b1
@@ -186,11 +186,11 @@ Memory map
                 0x000011bc      0x1b1
 
 .fini_array     0x00002ebc        0x8
- .fini_array    0x00002ebc        0x4 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .fini_array    0x00002ec0        0x4 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .fini_array    0x00002ebc        0x4 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00002ec0        0x4 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
 
 .init_array     0x00002ec4        0x4
- .init_array    0x00002ec4        0x4 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+ .init_array    0x00002ec4        0x4 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtend_so.o
 
 .dynamic        0x00002ec8       0xe0
  ** dynamic     0x00002ec8       0xe0
@@ -200,7 +200,7 @@ Memory map
  ** GOT PLT     0x00002fe4       0x1c
 
 .data           0x00003000        0x4
- .data          0x00003000        0x4 C:/android-ndk-r9-x86/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .data          0x00003000        0x4 C:/Program Files (x86)/Android SDK/android-ndk-r9/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
                 0x00003000                __dso_handle
 
 .bss            0x00003004       0x38
