@@ -44,7 +44,7 @@ void FlurryRegisterExt()
     /*
      * Register the extension
      */
-    s3eEdkRegister("Flurry", funcPtrs, sizeof(funcPtrs), flags, FlurryInit, FlurryTerminate, 0);
+s3eEdkRegister("Flurry", funcPtrs, sizeof(funcPtrs), flags, FlurryInit, FlurryTerminate, 0);
 }
 
 #if !defined S3E_BUILD_S3ELOADER
