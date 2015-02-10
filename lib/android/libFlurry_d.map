@@ -1,66 +1,55 @@
 Archive member included because of file (symbol)
 
-E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                              debug\Flurry_platform.os (IwDebugTraceSetTraceChannel)
-E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                              debug\Flurry_platform.os (IwDebugTraceIsChannelOn)
+C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
                               debug\Flurry_platform.os (s3eEdkThreadRunOnOS)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
-                              E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o) (__aeabi_ldivmod)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
-                              e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o (__aeabi_unwind_cpp_pr0)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o) (restore_core_regs)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o) (__divdi3)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o) (__udivdi3)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o) (__aeabi_uidiv)
-e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-                              e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o) (__div0)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                              C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o) (__aeabi_ldivmod)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__aeabi_unwind_cpp_pr0)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__divdi3)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o) (__udivdi3)
+c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                              c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o) (__aeabi_uidiv)
 
 Discarded input sections
 
- .ARM.extab     0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+ .text          0x00000000       0x34 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- _ZN7_JNIEnv9FindClassEPKc
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv17ExceptionOccurredEv
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv17ExceptionDescribeEv
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv14ExceptionClearEv
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv12NewGlobalRefEP8_jobject
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv14DeleteLocalRefEP8_jobject
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JNIEnv12NewStringUTFEPKc
-                0x00000000        0x0 debug\Flurry_platform.os
- _ZN7_JavaVM6GetEnvEPPvi
-                0x00000000        0x0 debug\Flurry_platform.os
+                0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
+ .group         0x00000000        0x8 debug\Flurry_platform.os
  .text          0x00000000        0x0 debug\Flurry_platform.os
  .data          0x00000000        0x0 debug\Flurry_platform.os
  .text._ZL19CreateParamsHashMapP14s3eFlurryParami
-                0x00000000        0x0 debug\Flurry_platform.os
+                0x00000000      0x140 debug\Flurry_platform.os
  .note.GNU-stack
                 0x00000000        0x0 debug\Flurry_platform.os
  .text          0x00000000        0x0 debug\Flurry.os
  .data          0x00000000        0x0 debug\Flurry.os
  .bss           0x00000000        0x0 debug\Flurry.os
- .rodata        0x00000000        0x0 debug\Flurry.os
+ .rodata        0x00000000        0x4 debug\Flurry.os
  .note.GNU-stack
                 0x00000000        0x0 debug\Flurry.os
  .text          0x00000000        0x0 debug\Flurry_register.os
@@ -68,806 +57,379 @@ Discarded input sections
  .bss           0x00000000        0x0 debug\Flurry_register.os
  .note.GNU-stack
                 0x00000000        0x0 debug\Flurry_register.os
- .text          0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .data          0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwAssertRegisterTextCallback
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwAssertRegisterCallback
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugErrorRegisterCallback
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugAssertSetUID
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+ .text          0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .data          0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .text.IwDebugClearConfigCache
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugErrorShow
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugTraceLineVPrintf
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+                0x00000000       0x80 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .text.IwDebugAssertIsChannelOn
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugTraceDisable
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugAssertSetMessage
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text.IwDebugAssertSetSolution
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+                0x00000000      0x1ec C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .text.IwDebugAssertShow
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+                0x00000000      0x2e8 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetSolution
+                0x00000000       0xb4 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetMessage
+                0x00000000       0xfc C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterTextCallback
+                0x00000000       0x1c C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwAssertRegisterCallback
+                0x00000000       0x1c C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugTraceDisable
+                0x00000000       0x10 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .text.IwDebugTraceChannelSwitch
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+                0x00000000      0x1e4 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorRegisterCallback
+                0x00000000       0x1c C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugErrorShow
+                0x00000000      0x108 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text.IwDebugAssertSetUID
+                0x00000000       0x14 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .note.GNU-stack
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .text          0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .data          0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .bss           0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .text.s3eEdkThreadRunOnOSAsync
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .text          0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
  .text.s3eEdkErrorSetString
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
+                0x00000000       0x30 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000       0x30 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
  .note.GNU-stack
-                0x00000000        0x0 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
+                0x00000000        0x0 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .ARM.extab     0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .ARM.extab     0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .ARM.extab     0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .ARM.extab     0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
- .text          0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
- .data          0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
- .bss           0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x00000000        0x0 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+ .text          0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
  .note.GNU-stack
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+                0x00000000        0x0 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
 
-Memory Configuration
+Memory map
 
-Name             Origin             Length             Attributes
-*default*        0x00000000         0xffffffff
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034      0x100
 
-Linker script and memory map
+.interp         0x00000134       0x13
+ ** fill        0x00000134       0x13
 
-LOAD e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-LOAD debug\Flurry_platform.os
-LOAD debug\Flurry.os
-LOAD debug\Flurry_register.os
-LOAD E:\marmalade\6.2\s3e\edk\lib\android\libedk.a
-LOAD E:\marmalade\6.2\s3e\edk\lib\android/libplaceholderplaceholderplaceholderplaceholderplaceholder.so
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/liblog.so
-LOAD E:\Program Files\Android\android-ndk\sources\cxx-stl\gnu-libstdc++\4.4.3\libs\armeabi\libgnustl_static.a
-LOAD e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/libstdc++.so
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/libm.so
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/libc.so
-LOAD e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/libc.so
-LOAD E:\Program Files\Android\android-ndk\platforms\android-9\arch-arm\usr\lib/libdl.so
-LOAD e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a
-LOAD e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
-                0x000000f4                . = (0x0 + SIZEOF_HEADERS)
+.dynsym         0x00000148      0x580
+ ** dynsym      0x00000148      0x580
 
-.note.gnu.build-id
- *(.note.gnu.build-id)
+.dynstr         0x000006c8      0x678
+ ** string table
+                0x000006c8      0x678
 
-.hash           0x000000f4      0x29c
- *(.hash)
- .hash          0x000000f4      0x29c e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+.hash           0x00000d40      0x274
+ ** hash        0x00000d40      0x274
 
-.gnu.hash
- *(.gnu.hash)
+.rel.dyn        0x00000fb4       0xc0
+ ** dynamic relocs
+                0x00000fb4       0xc0
 
-.dynsym         0x00000390      0x620
- *(.dynsym)
- .dynsym        0x00000390      0x620 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+.rel.plt        0x00001074       0xa0
+ ** dynamic relocs
+                0x00001074       0xa0
 
-.dynstr         0x000009b0      0x63e
- *(.dynstr)
- .dynstr        0x000009b0      0x63e e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+.plt            0x00001114      0x104
+ ** PLT         0x00001114      0x104
 
-.gnu.version    0x00000fee        0x0
- *(.gnu.version)
- .gnu.version   0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.gnu.version_d  0x00000ff0        0x0 load address 0x00000fee
- *(.gnu.version_d)
- .gnu.version_d
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.gnu.version_r  0x00000ff0        0x0 load address 0x00000fee
- *(.gnu.version_r)
- .gnu.version_r
-                0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.rel.dyn        0x00000ff0       0xd8
- *(.rel.init)
- *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
- .rel.text      0x00000ff0       0x10 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- *(.rel.fini)
- *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
- *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
- *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
- .rel.data      0x00001000        0x8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
- *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
- *(.rel.ctors)
- *(.rel.dtors)
- *(.rel.got)
- .rel.got       0x00001008       0xb0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
- .rel.fini_array
-                0x000010b8        0x8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .rel.init_array
-                0x000010c0        0x8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.rela.dyn
- *(.rela.init)
- *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
- *(.rela.fini)
- *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
- *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
- *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
- *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
- *(.rela.ctors)
- *(.rela.dtors)
- *(.rela.got)
- *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
-
-.rel.plt        0x000010c8       0xa8
- *(.rel.plt)
- .rel.plt       0x000010c8       0xa8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.rela.plt
- *(.rela.plt)
-
-.init
- *(.init)
-
-.plt            0x00001170      0x110
- *(.plt)
- .plt           0x00001170      0x110 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-
-.text           0x00001280     0x37a8
- *(.text .stub .text.* .gnu.linkonce.t.*)
- .text          0x00001280       0x28 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00001290                atexit
+.text           0x00001218     0x36a4
+ .text.exit     0x00001218       0x10 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00001218                __on_dlclose
+ .text.startup._GLOBAL__sub_I_IwDebug.cpp
+                0x00001228       0x88 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
  .text._ZN7_JNIEnv9FindClassEPKc
-                0x000012a8       0x38 debug\Flurry_platform.os
-                0x000012a8                _JNIEnv::FindClass(char const*)
+                0x000012b0       0x38 debug\Flurry_platform.os
+                0x000012b0                _JNIEnv::FindClass(char const*)
  .text._ZN7_JNIEnv17ExceptionOccurredEv
-                0x000012e0       0x30 debug\Flurry_platform.os
-                0x000012e0                _JNIEnv::ExceptionOccurred()
+                0x000012e8       0x30 debug\Flurry_platform.os
+                0x000012e8                _JNIEnv::ExceptionOccurred()
  .text._ZN7_JNIEnv17ExceptionDescribeEv
-                0x00001310       0x28 debug\Flurry_platform.os
-                0x00001310                _JNIEnv::ExceptionDescribe()
+                0x00001318       0x28 debug\Flurry_platform.os
+                0x00001318                _JNIEnv::ExceptionDescribe()
  .text._ZN7_JNIEnv14ExceptionClearEv
-                0x00001338       0x28 debug\Flurry_platform.os
-                0x00001338                _JNIEnv::ExceptionClear()
+                0x00001340       0x28 debug\Flurry_platform.os
+                0x00001340                _JNIEnv::ExceptionClear()
  .text._ZN7_JNIEnv12NewGlobalRefEP8_jobject
-                0x00001360       0x38 debug\Flurry_platform.os
-                0x00001360                _JNIEnv::NewGlobalRef(_jobject*)
+                0x00001368       0x38 debug\Flurry_platform.os
+                0x00001368                _JNIEnv::NewGlobalRef(_jobject*)
  .text._ZN7_JNIEnv14DeleteLocalRefEP8_jobject
-                0x00001398       0x30 debug\Flurry_platform.os
-                0x00001398                _JNIEnv::DeleteLocalRef(_jobject*)
+                0x000013a0       0x30 debug\Flurry_platform.os
+                0x000013a0                _JNIEnv::DeleteLocalRef(_jobject*)
  .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
-                0x000013c8       0x5c debug\Flurry_platform.os
-                0x000013c8                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+                0x000013d0       0x58 debug\Flurry_platform.os
+                0x000013d0                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
  .text._ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_
-                0x00001424       0x48 debug\Flurry_platform.os
-                0x00001424                _JNIEnv::GetMethodID(_jclass*, char const*, char const*)
+                0x00001428       0x48 debug\Flurry_platform.os
+                0x00001428                _JNIEnv::GetMethodID(_jclass*, char const*, char const*)
  .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
-                0x0000146c       0x4c debug\Flurry_platform.os
-                0x0000146c                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+                0x00001470       0x4c debug\Flurry_platform.os
+                0x00001470                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
  .text._ZN7_JNIEnv12NewStringUTFEPKc
-                0x000014b8       0x38 debug\Flurry_platform.os
-                0x000014b8                _JNIEnv::NewStringUTF(char const*)
+                0x000014bc       0x38 debug\Flurry_platform.os
+                0x000014bc                _JNIEnv::NewStringUTF(char const*)
  .text._ZN7_JavaVM6GetEnvEPPvi
-                0x000014f0       0x40 debug\Flurry_platform.os
-                0x000014f0                _JavaVM::GetEnv(void**, int)
+                0x000014f4       0x40 debug\Flurry_platform.os
+                0x000014f4                _JavaVM::GetEnv(void**, int)
  .text._ZL15s3eEdkJNIGetEnvv
-                0x00001530       0x44 debug\Flurry_platform.os
+                0x00001534       0x40 debug\Flurry_platform.os
  .text._ZL27s3eEdkAndroidFindClass_realPKc
-                0x00001574       0xa4 debug\Flurry_platform.os
+                0x00001574       0x8c debug\Flurry_platform.os
  .text._ZL22s3eEdkAndroidFindClassPKc
-                0x00001618       0x38 debug\Flurry_platform.os
+                0x00001600       0x38 debug\Flurry_platform.os
  .text._Z19FlurryInit_platformv
-                0x00001650      0x6a4 debug\Flurry_platform.os
-                0x00001650                FlurryInit_platform()
+                0x00001638      0x650 debug\Flurry_platform.os
+                0x00001638                FlurryInit_platform()
  .text._Z24FlurryTerminate_platformv
-                0x00001cf4        0x4 debug\Flurry_platform.os
-                0x00001cf4                FlurryTerminate_platform()
+                0x00001c88        0x4 debug\Flurry_platform.os
+                0x00001c88                FlurryTerminate_platform()
  .text._Z30s3eFlurryStartSession_platformPKc
-                0x00001cf8       0x78 debug\Flurry_platform.os
-                0x00001cf8                s3eFlurryStartSession_platform(char const*)
+                0x00001c8c       0x6c debug\Flurry_platform.os
+                0x00001c8c                s3eFlurryStartSession_platform(char const*)
  .text._Z28s3eFlurryEndSession_platformv
-                0x00001d70       0x4c debug\Flurry_platform.os
-                0x00001d70                s3eFlurryEndSession_platform()
+                0x00001cf8       0x48 debug\Flurry_platform.os
+                0x00001cf8                s3eFlurryEndSession_platform()
  .text._Z26s3eFlurryLogEvent_platformPKc
-                0x00001dbc       0x78 debug\Flurry_platform.os
-                0x00001dbc                s3eFlurryLogEvent_platform(char const*)
+                0x00001d40       0x6c debug\Flurry_platform.os
+                0x00001d40                s3eFlurryLogEvent_platform(char const*)
  .text._Z31s3eFlurryLogEventTimed_platformPKc
-                0x00001e34       0x78 debug\Flurry_platform.os
-                0x00001e34                s3eFlurryLogEventTimed_platform(char const*)
+                0x00001dac       0x6c debug\Flurry_platform.os
+                0x00001dac                s3eFlurryLogEventTimed_platform(char const*)
  .text._Z32s3eFlurryLogEventParams_platformPKcS0_
-                0x00001eac       0xa8 debug\Flurry_platform.os
-                0x00001eac                s3eFlurryLogEventParams_platform(char const*, char const*)
+                0x00001e18       0x94 debug\Flurry_platform.os
+                0x00001e18                s3eFlurryLogEventParams_platform(char const*, char const*)
  .text._Z37s3eFlurryLogEventParamsTimed_platformPKcS0_
-                0x00001f54       0xa8 debug\Flurry_platform.os
-                0x00001f54                s3eFlurryLogEventParamsTimed_platform(char const*, char const*)
+                0x00001eac       0x94 debug\Flurry_platform.os
+                0x00001eac                s3eFlurryLogEventParamsTimed_platform(char const*, char const*)
  .text._Z31s3eFlurryEndTimedEvent_platformPKcS0_
-                0x00001ffc       0xa8 debug\Flurry_platform.os
-                0x00001ffc                s3eFlurryEndTimedEvent_platform(char const*, char const*)
+                0x00001f40       0x94 debug\Flurry_platform.os
+                0x00001f40                s3eFlurryEndTimedEvent_platform(char const*, char const*)
  .text._Z26s3eFlurryLogError_platformPKcS0_
-                0x000020a4       0xa8 debug\Flurry_platform.os
-                0x000020a4                s3eFlurryLogError_platform(char const*, char const*)
+                0x00001fd4       0x94 debug\Flurry_platform.os
+                0x00001fd4                s3eFlurryLogError_platform(char const*, char const*)
  .text._Z27s3eFlurrySetUserID_platformPKc
-                0x0000214c       0x78 debug\Flurry_platform.os
-                0x0000214c                s3eFlurrySetUserID_platform(char const*)
+                0x00002068       0x6c debug\Flurry_platform.os
+                0x00002068                s3eFlurrySetUserID_platform(char const*)
  .text._Z24s3eFlurrySetAge_platformi
-                0x000021c4       0x54 debug\Flurry_platform.os
-                0x000021c4                s3eFlurrySetAge_platform(int)
+                0x000020d4       0x50 debug\Flurry_platform.os
+                0x000020d4                s3eFlurrySetAge_platform(int)
  .text._Z31s3eFlurryCountPageView_platformv
-                0x00002218       0x4c debug\Flurry_platform.os
-                0x00002218                s3eFlurryCountPageView_platform()
+                0x00002124       0x48 debug\Flurry_platform.os
+                0x00002124                s3eFlurryCountPageView_platform()
  .text._Z49s3eFlurrySetSessionReportsOnCloseEnabled_platformh
-                0x00002264       0x50 debug\Flurry_platform.os
-                0x00002264                s3eFlurrySetSessionReportsOnCloseEnabled_platform(unsigned char)
+                0x0000216c       0x4c debug\Flurry_platform.os
+                0x0000216c                s3eFlurrySetSessionReportsOnCloseEnabled_platform(unsigned char)
  .text._Z49s3eFlurrySetSessionReportsOnPauseEnabled_platformh
-                0x000022b4       0x50 debug\Flurry_platform.os
-                0x000022b4                s3eFlurrySetSessionReportsOnPauseEnabled_platform(unsigned char)
+                0x000021b8       0x4c debug\Flurry_platform.os
+                0x000021b8                s3eFlurrySetSessionReportsOnPauseEnabled_platform(unsigned char)
  .text._Z10FlurryInitv
-                0x00002304       0x14 debug\Flurry.os
-                0x00002304                FlurryInit()
+                0x00002204       0x14 debug\Flurry.os
+                0x00002204                FlurryInit()
  .text._Z15FlurryTerminatev
-                0x00002318        0xc debug\Flurry.os
-                0x00002318                FlurryTerminate()
+                0x00002218        0xc debug\Flurry.os
+                0x00002218                FlurryTerminate()
  .text.s3eFlurryStartSession
-                0x00002324       0x1c debug\Flurry.os
-                0x00002324                s3eFlurryStartSession
+                0x00002224       0x1c debug\Flurry.os
+                0x00002224                s3eFlurryStartSession
  .text.s3eFlurryEndSession
-                0x00002340        0xc debug\Flurry.os
-                0x00002340                s3eFlurryEndSession
+                0x00002240        0xc debug\Flurry.os
+                0x00002240                s3eFlurryEndSession
  .text.s3eFlurryLogEvent
-                0x0000234c       0x1c debug\Flurry.os
-                0x0000234c                s3eFlurryLogEvent
+                0x0000224c       0x1c debug\Flurry.os
+                0x0000224c                s3eFlurryLogEvent
  .text.s3eFlurryLogEventTimed
-                0x00002368       0x1c debug\Flurry.os
-                0x00002368                s3eFlurryLogEventTimed
+                0x00002268       0x1c debug\Flurry.os
+                0x00002268                s3eFlurryLogEventTimed
  .text.s3eFlurryLogEventParams
-                0x00002384       0x24 debug\Flurry.os
-                0x00002384                s3eFlurryLogEventParams
+                0x00002284       0x24 debug\Flurry.os
+                0x00002284                s3eFlurryLogEventParams
  .text.s3eFlurryLogEventParamsTimed
-                0x000023a8       0x24 debug\Flurry.os
-                0x000023a8                s3eFlurryLogEventParamsTimed
+                0x000022a8       0x24 debug\Flurry.os
+                0x000022a8                s3eFlurryLogEventParamsTimed
  .text.s3eFlurryEndTimedEvent
-                0x000023cc       0x24 debug\Flurry.os
-                0x000023cc                s3eFlurryEndTimedEvent
+                0x000022cc       0x24 debug\Flurry.os
+                0x000022cc                s3eFlurryEndTimedEvent
  .text.s3eFlurryLogError
-                0x000023f0       0x24 debug\Flurry.os
-                0x000023f0                s3eFlurryLogError
+                0x000022f0       0x24 debug\Flurry.os
+                0x000022f0                s3eFlurryLogError
  .text.s3eFlurrySetUserID
-                0x00002414       0x1c debug\Flurry.os
-                0x00002414                s3eFlurrySetUserID
+                0x00002314       0x1c debug\Flurry.os
+                0x00002314                s3eFlurrySetUserID
  .text.s3eFlurrySetAge
-                0x00002430       0x1c debug\Flurry.os
-                0x00002430                s3eFlurrySetAge
+                0x00002330       0x1c debug\Flurry.os
+                0x00002330                s3eFlurrySetAge
  .text.s3eFlurryCountPageView
-                0x0000244c        0xc debug\Flurry.os
-                0x0000244c                s3eFlurryCountPageView
+                0x0000234c        0xc debug\Flurry.os
+                0x0000234c                s3eFlurryCountPageView
  .text.s3eFlurrySetSessionReportsOnCloseEnabled
-                0x00002458       0x24 debug\Flurry.os
-                0x00002458                s3eFlurrySetSessionReportsOnCloseEnabled
+                0x00002358       0x24 debug\Flurry.os
+                0x00002358                s3eFlurrySetSessionReportsOnCloseEnabled
  .text.s3eFlurrySetSessionReportsOnPauseEnabled
-                0x0000247c       0x24 debug\Flurry.os
-                0x0000247c                s3eFlurrySetSessionReportsOnPauseEnabled
+                0x0000237c       0x24 debug\Flurry.os
+                0x0000237c                s3eFlurrySetSessionReportsOnPauseEnabled
  .text._Z17FlurryRegisterExtv
-                0x000024a0      0x1d8 debug\Flurry_register.os
-                0x000024a0                FlurryRegisterExt()
+                0x000023a0      0x1d4 debug\Flurry_register.os
+                0x000023a0                FlurryRegisterExt()
  .text.RegisterExt
-                0x00002678        0xc debug\Flurry_register.os
-                0x00002678                RegisterExt
- .text.IwDebugTraceSetTraceChannel
-                0x00002684       0x1c E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                0x00002684                IwDebugTraceSetTraceChannel
- .text._GLOBAL__I_Z__sdk_modules_iwcore_source_IwDebug.cpp
-                0x000026a0       0xa4 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
+                0x00002574        0xc debug\Flurry_register.os
+                0x00002574                RegisterExt
  .text.IwDebugTraceIsChannelOn
-                0x00002744      0x2b8 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                0x00002744                IwDebugTraceIsChannelOn
+                0x00002580      0x27c C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00002580                IwDebugTraceIsChannelOn
+ .text.IwDebugTraceSetTraceChannel
+                0x000027fc       0x1c C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x000027fc                IwDebugTraceSetTraceChannel
+ .text.IwDebugTraceLineVPrintf
+                0x00002818       0xfc C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00002818                IwDebugTraceLineVPrintf
  .text.IwDebugTraceLinePrintf
-                0x000029fc      0x10c E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                0x000029fc                IwDebugTraceLinePrintf
+                0x00002914       0x30 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x00002914                IwDebugTraceLinePrintf
  .text.s3eEdkThreadRunOnOS
-                0x00002b08       0x30 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
-                0x00002b08                s3eEdkThreadRunOnOS
- .text          0x00002b38       0x1c e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
-                0x00002b38                __aeabi_ldivmod
- .text          0x00002b54       0x88 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
-                0x00002b54                __gnu_uldivmod_helper
-                0x00002b98                __gnu_ldivmod_helper
- .text          0x00002bdc      0xec4 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
-                0x00003604                __gnu_Unwind_RaiseException
-                0x0000315c                __aeabi_unwind_cpp_pr0
-                0x00002c8c                _Unwind_GetCFA
-                0x00002c28                _Unwind_VRS_Set
-                0x000033a0                __gnu_Unwind_Backtrace
-                0x00003734                _Unwind_VRS_Pop
-                0x0000314c                __aeabi_unwind_cpp_pr2
-                0x00002c98                _Unwind_DeleteException
-                0x00002c94                _Unwind_Complete
-                0x000036c8                __gnu_Unwind_Resume
-                0x00003590                __gnu_Unwind_ForcedUnwind
-                0x000036a8                __gnu_Unwind_Resume_or_Rethrow
-                0x00002bdc                _Unwind_VRS_Get
-                0x00003154                __aeabi_unwind_cpp_pr1
- .text          0x00003aa0      0x1a8 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
-                0x00003c00                ___Unwind_ForcedUnwind
-                0x00003abc                __gnu_Unwind_Save_VFP
-                0x00003bdc                _Unwind_Resume_or_Rethrow
-                0x00003bdc                ___Unwind_Resume_or_Rethrow
-                0x00003c24                _Unwind_Backtrace
-                0x00003aa0                __restore_core_regs
-                0x00003adc                __gnu_Unwind_Save_VFP_D_16_to_31
-                0x00003acc                __gnu_Unwind_Save_VFP_D
-                0x00003c24                ___Unwind_Backtrace
-                0x00003b94                ___Unwind_RaiseException
-                0x00003bb8                ___Unwind_Resume
-                0x00003ae4                __gnu_Unwind_Restore_WMMXD
-                0x00003ab4                __gnu_Unwind_Restore_VFP
-                0x00003bb8                _Unwind_Resume
-                0x00003ac4                __gnu_Unwind_Restore_VFP_D
-                0x00003ad4                __gnu_Unwind_Restore_VFP_D_16_to_31
-                0x00003b94                _Unwind_RaiseException
-                0x00003aa0                restore_core_regs
-                0x00003b80                __gnu_Unwind_Save_WMMXC
-                0x00003b6c                __gnu_Unwind_Restore_WMMXC
-                0x00003c00                _Unwind_ForcedUnwind
-                0x00003b28                __gnu_Unwind_Save_WMMXD
- .text          0x00003c48      0x484 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
-                0x00003ce8                _Unwind_GetRegionStart
-                0x00003d14                __gnu_unwind_execute
-                0x00003ca0                _Unwind_GetTextRelBase
-                0x00003cb0                _Unwind_GetLanguageSpecificData
-                0x0000408c                __gnu_unwind_frame
-                0x00003ca8                _Unwind_GetDataRelBase
- .text          0x000040cc      0x47c e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
-                0x000040cc                __divdi3
- .text          0x00004548      0x40c e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-                0x00004548                __udivdi3
- .text          0x00004954       0xc4 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
-                0x00004954                __udivsi3
-                0x00004954                __aeabi_uidiv
-                0x00004a00                __aeabi_uidivmod
- .text          0x00004a18       0x10 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-                0x00004a18                __div0
- *(.gnu.warning)
- *(.glue_7t)
- .glue_7t       0x00000000        0x0 linker stubs
- *(.glue_7)
- .glue_7        0x00000000        0x0 linker stubs
- *(.vfp11_veneer)
- .vfp11_veneer  0x00000000        0x0 linker stubs
- *(.v4_bx)
- .v4_bx         0x00000000        0x0 linker stubs
+                0x00002944       0x30 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x00002944                s3eEdkThreadRunOnOS
+ .text          0x00002974       0x44 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_aeabi_ldivmod.o)
+                0x00002974                __aeabi_ldivmod
+ .text          0x000029b8       0x10 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+                0x000029b8                __aeabi_idiv0
+                0x000029b8                __aeabi_ldiv0
+ .text          0x000029c8       0x78 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+                0x000029c8                __gnu_ldivmod_helper
+                0x00002a04                __gnu_uldivmod_helper
+ .text          0x00002a40      0xeec c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+                0x000035bc                __aeabi_unwind_cpp_pr0
+                0x000035c4                __aeabi_unwind_cpp_pr1
+                0x000035cc                __aeabi_unwind_cpp_pr2
+                0x00002e78                _Unwind_GetCFA
+                0x00002e80                __gnu_Unwind_RaiseException
+                0x00002f24                __gnu_Unwind_ForcedUnwind
+                0x00002f40                __gnu_Unwind_Resume
+                0x00002fb4                __gnu_Unwind_Resume_or_Rethrow
+                0x00002fd4                _Unwind_Complete
+                0x00002fd8                _Unwind_DeleteException
+                0x00002ff8                _Unwind_VRS_Get
+                0x0000307c                _Unwind_VRS_Set
+                0x00003104                __gnu_Unwind_Backtrace
+                0x000035d4                _Unwind_VRS_Pop
+ .text          0x0000392c      0x1a8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(libunwind.o)
+                0x0000392c                __restore_core_regs
+                0x0000392c                restore_core_regs
+                0x00003940                __gnu_Unwind_Restore_VFP
+                0x00003948                __gnu_Unwind_Save_VFP
+                0x00003950                __gnu_Unwind_Restore_VFP_D
+                0x00003958                __gnu_Unwind_Save_VFP_D
+                0x00003960                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00003968                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00003970                __gnu_Unwind_Restore_WMMXD
+                0x000039b4                __gnu_Unwind_Save_WMMXD
+                0x000039f8                __gnu_Unwind_Restore_WMMXC
+                0x00003a0c                __gnu_Unwind_Save_WMMXC
+                0x00003a20                ___Unwind_RaiseException
+                0x00003a20                _Unwind_RaiseException
+                0x00003a44                ___Unwind_Resume
+                0x00003a44                _Unwind_Resume
+                0x00003a68                ___Unwind_Resume_or_Rethrow
+                0x00003a68                _Unwind_Resume_or_Rethrow
+                0x00003a8c                ___Unwind_ForcedUnwind
+                0x00003a8c                _Unwind_ForcedUnwind
+                0x00003ab0                ___Unwind_Backtrace
+                0x00003ab0                _Unwind_Backtrace
+ .text          0x00003ad4      0x484 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+                0x00003b60                __gnu_unwind_execute
+                0x00003edc                __gnu_unwind_frame
+                0x00003f1c                _Unwind_GetRegionStart
+                0x00003f2c                _Unwind_GetLanguageSpecificData
+                0x00003f48                _Unwind_GetDataRelBase
+                0x00003f50                _Unwind_GetTextRelBase
+ .text          0x00003f58      0x498 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+                0x00003f58                __divdi3
+ .text          0x000043f0      0x404 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+                0x000043f0                __udivdi3
+ .text          0xffffffffffffffff       0xc8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivsi3.o)
+                0x000047f4                __udivsi3
+                0x000047f4                __aeabi_uidiv
+                0x0000489c                __aeabi_uidivmod
 
-.fini
- *(.fini)
-                0x00004a28                PROVIDE (__etext, .)
-                0x00004a28                PROVIDE (_etext, .)
-                0x00004a28                PROVIDE (etext, .)
+.rodata         0x000048bc      0x372
+ .rodata        0x000048bc      0x24c debug\Flurry_platform.os
+ .rodata        0x00004b08        0xc debug\Flurry_register.os
+ ** merge strings
+                0x00004b14      0x11a
 
-.rodata         0x00004a28      0x374
- *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00004a28      0x24c debug\Flurry_platform.os
- .rodata        0x00004c74        0xc debug\Flurry_register.os
- .rodata.str1.4
-                0x00004c80      0x11c E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                                0x120 (size before relaxing)
+.ARM.extab      0x00004c30       0x48
+ .ARM.extab     0x00004c30        0xc c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.extab     0x00004c3c        0xc c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00004c48       0x30 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
 
-.rodata1
- *(.rodata1)
+.ARM.exidx      0x00004c78      0x128
+ .ARM.exidx     0x00004c78        0x8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_dvmd_lnx.o)
+ .ARM.exidx     0xffffffffffffffff       0x10 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(bpabi.o)
+ .ARM.exidx     0xffffffffffffffff       0xd8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(unwind-arm.o)
+ ** ARM cantunwind
+                0x00004d38        0x8
+ .ARM.exidx     0x00004d40       0x48 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(pr-support.o)
+ .ARM.exidx     0x00004d88        0x8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00004d90        0x8 c:/software/android-ndk-r10d/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.8/libgcc.a(_udivdi3.o)
+ ** ARM cantunwind
+                0x00004d98        0x8
 
-.ARM.extab      0x00004d9c       0x24
- *(.ARM.extab* .gnu.linkonce.armextab.*)
- .ARM.extab     0x00004d9c       0x24 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
-                0x00004dc0                __exidx_start = .
+.fini_array     0x00005e5c        0x8
+ .fini_array    0x00005e5c        0x4 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00005e60        0x4 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
 
-.ARM.exidx      0x00004dc0      0x100
- *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00004dc0        0x8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .ARM.exidx     0x00004dc8       0x10 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .ARM.exidx     0x00004dd8       0xa0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .ARM.exidx     0x00004e78       0x38 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .ARM.exidx     0x00004eb0        0x8 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00004eb8        0x8 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-                0x00004ec0                __exidx_end = .
+.init_array     0x00005e64        0x8
+ .init_array    0x00005e64        0x4 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+ .init_array    0x00005e68        0x4 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
 
-.eh_frame_hdr
- *(.eh_frame_hdr)
+.dynamic        0x00005e6c       0xe0
+ ** dynamic     0x00005e6c       0xe0
 
-.eh_frame
- *(.eh_frame)
+.got            0x00005f4c       0xb4
+ ** GOT         0x00005f4c       0x58
+ ** GOT PLT     0x00005fa4       0x5c
 
-.gcc_except_table
- *(.gcc_except_table .gcc_except_table.*)
-                0x00004ec0                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
-                0x00005e50                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
-
-.eh_frame
- *(.eh_frame)
-
-.gcc_except_table
- *(.gcc_except_table .gcc_except_table.*)
-
-.tdata
- *(.tdata .tdata.* .gnu.linkonce.td.*)
-
-.tbss
- *(.tbss .tbss.* .gnu.linkonce.tb.*)
- *(.tcommon)
-
-.preinit_array
- *(.preinit_array)
-
-.init_array     0x00005e50        0xc
- *(SORT(.init_array.*))
- *(.init_array)
- .init_array    0x00005e50        0x4 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00005e50                __INIT_ARRAY__
- .init_array    0x00005e54        0x4 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .init_array    0x00005e58        0x4 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
-
-.fini_array     0x00005e5c        0xc
- *(.fini_array)
- .fini_array    0x00005e5c        0x8 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00005e5c                __FINI_ARRAY__
- .fini_array    0x00005e64        0x4 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
- *(SORT(.fini_array.*))
-
-.ctors
- *crtbegin.o(.ctors)
- *crtbegin?.o(.ctors)
- *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
- *(SORT(.ctors.*))
- *(.ctors)
-
-.dtors
- *crtbegin.o(.dtors)
- *crtbegin?.o(.dtors)
- *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
- *(SORT(.dtors.*))
- *(.dtors)
-
-.jcr
- *(.jcr)
-
-.data.rel.ro
- *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
- *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
-
-.dynamic        0x00005e68       0xe0
- *(.dynamic)
- .dynamic       0x00005e68       0xe0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00005e68                _DYNAMIC
-
-.got            0x00005f48       0xb8
- *(.got.plt)
- .got.plt       0x00005f48       0x60 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00005f48                _GLOBAL_OFFSET_TABLE_
- *(.got)
- .got           0x00005fa8       0x58 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
-                0x00006000                . = (. DATA_SEGMENT_RELRO_END 0x0)
-
-.data           0x00006000       0x10
-                0x00006000                __data_start = .
- *(.data .data.* .gnu.linkonce.d.*)
- .data          0x00006000       0x10 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
+.data           0x00006000        0x4
+ .data          0x00006000        0x4 C:/software/android-ndk-r10d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
                 0x00006000                __dso_handle
 
-.data1
- *(.data1)
-                0x00006010                _edata = .
-                0x00006010                PROVIDE (edata, .)
-                0x00006010                __bss_start = .
-                0x00006010                __bss_start__ = .
-
-.bss            0x00006010     0x1a60
- *(.dynbss)
- .dynbss        0x00000000        0x0 e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x00006010       0x38 debug\Flurry_platform.os
- .bss           0x00006048     0x1a28 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
-                0x00006048                g_DebugGlobals
- *(COMMON)
-                0x00007a70                . = ALIGN ((. != 0x0)?0x4:0x1)
-                0x00007a70                _bss_end__ = .
-                0x00007a70                __bss_end__ = .
-                0x00007a70                . = ALIGN (0x4)
-                0x00007a70                . = ALIGN (0x4)
-                0x00007a70                __end__ = .
-                0x00007a70                _end = .
-                0x00007a70                PROVIDE (end, .)
-                0x00007a70                . = DATA_SEGMENT_END (.)
-
-.stab
- *(.stab)
-
-.stabstr
- *(.stabstr)
-
-.stab.excl
- *(.stab.excl)
-
-.stab.exclstr
- *(.stab.exclstr)
-
-.stab.index
- *(.stab.index)
-
-.stab.indexstr
- *(.stab.indexstr)
-
-.comment        0x00000000       0xb4
- *(.comment)
- .comment       0x00000000       0x12 debug\Flurry_platform.os
- .comment       0x00000012       0x12 debug\Flurry.os
- .comment       0x00000024       0x12 debug\Flurry_register.os
- .comment       0x00000036       0x12 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .comment       0x00000048       0x12 E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .comment       0x0000005a       0x12 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .comment       0x0000006c       0x12 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .comment       0x0000007e       0x12 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .comment       0x00000090       0x12 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .comment       0x000000a2       0x12 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-
-.debug
- *(.debug)
-
-.line
- *(.line)
-
-.debug_srcinfo
- *(.debug_srcinfo)
-
-.debug_sfnames
- *(.debug_sfnames)
-
-.debug_aranges  0x00000000      0x2e0
- *(.debug_aranges)
- .debug_aranges
-                0x00000000      0x108 debug\Flurry_platform.os
- .debug_aranges
-                0x00000108       0x90 debug\Flurry.os
- .debug_aranges
-                0x00000198       0x28 debug\Flurry_register.os
- .debug_aranges
-                0x000001c0       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .debug_aranges
-                0x000001e0       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_aranges
-                0x00000200       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_aranges
-                0x00000220       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .debug_aranges
-                0x00000240       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_aranges
-                0x00000260       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_aranges
-                0x00000280       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .debug_aranges
-                0x000002a0       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .debug_aranges
-                0x000002c0       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-
-.debug_pubnames
-                0x00000000      0x7de
- *(.debug_pubnames)
- .debug_pubnames
-                0x00000000      0x34e debug\Flurry_platform.os
- .debug_pubnames
-                0x0000034e      0x1a6 debug\Flurry.os
- .debug_pubnames
-                0x000004f4       0x38 debug\Flurry_register.os
- .debug_pubnames
-                0x0000052c       0x45 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_pubnames
-                0x00000571      0x177 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_pubnames
-                0x000006e8       0xb7 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_pubnames
-                0x0000079f       0x1f e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_pubnames
-                0x000007be       0x20 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-
-.debug_info     0x00000000     0x8e98
- *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x5f83 debug\Flurry_platform.os
- .debug_info    0x00005f83      0x31a debug\Flurry.os
- .debug_info    0x0000629d      0x10e debug\Flurry_register.os
- .debug_info    0x000063ab       0xf5 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .debug_info    0x000064a0       0xde e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_info    0x0000657e     0x1424 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_info    0x000079a2       0xf9 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .debug_info    0x00007a9b      0x636 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_info    0x000080d1      0x606 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_info    0x000086d7      0x5cb e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .debug_info    0x00008ca2       0xfb e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .debug_info    0x00008d9d       0xfb e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-
-.debug_abbrev   0x00000000      0xdda
- *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x2bb debug\Flurry_platform.os
- .debug_abbrev  0x000002bb       0xed debug\Flurry.os
- .debug_abbrev  0x000003a8       0xa5 debug\Flurry_register.os
- .debug_abbrev  0x0000044d       0x14 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .debug_abbrev  0x00000461       0x6a e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_abbrev  0x000004cb      0x3bb e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_abbrev  0x00000886       0x14 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .debug_abbrev  0x0000089a      0x220 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_abbrev  0x00000aba      0x18b e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_abbrev  0x00000c45      0x16d e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .debug_abbrev  0x00000db2       0x14 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .debug_abbrev  0x00000dc6       0x14 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-
-.debug_line     0x00000000     0x13e9
- *(.debug_line)
- .debug_line    0x00000000      0x461 debug\Flurry_platform.os
- .debug_line    0x00000461      0x19f debug\Flurry.os
- .debug_line    0x00000600       0xd9 debug\Flurry_register.os
- .debug_line    0x000006d9       0xa5 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .debug_line    0x0000077e       0xab e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_line    0x00000829      0x4d2 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_line    0x00000cfb       0xf1 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .debug_line    0x00000dec      0x1d2 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_line    0x00000fbe      0x162 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_line    0x00001120      0x152 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .debug_line    0x00001272       0xcc e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .debug_line    0x0000133e       0xab e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
-
-.debug_frame    0x00000000      0x9bc
- *(.debug_frame)
- .debug_frame   0x00000000      0x35c debug\Flurry_platform.os
- .debug_frame   0x0000035c      0x1b4 debug\Flurry.os
- .debug_frame   0x00000510       0x48 debug\Flurry_register.os
- .debug_frame   0x00000558       0x60 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_frame   0x000005b8      0x248 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_frame   0x00000800      0x108 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_frame   0x00000908       0x44 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_frame   0x0000094c       0x48 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .debug_frame   0x00000994       0x28 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
-
-.debug_str      0x00000000     0x59e4
- *(.debug_str)
- .debug_str     0x00000000     0x4d73 debug\Flurry_platform.os
-                               0x4ef3 (size before relaxing)
- .debug_str     0x00004d73       0x7c debug\Flurry.os
-                                0x359 (size before relaxing)
- .debug_str     0x00004def       0x77 debug\Flurry_register.os
-                                0x183 (size before relaxing)
- .debug_str     0x00004e66       0xb9 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
-                                 0xde (size before relaxing)
- .debug_str     0x00004f1f      0x819 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
-                                0x8f4 (size before relaxing)
- .debug_str     0x00005738      0x13d e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
-                                0x45a (size before relaxing)
- .debug_str     0x00005875      0x165 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
-                                0x215 (size before relaxing)
- .debug_str     0x000059da        0xa e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-                                0x216 (size before relaxing)
-
-.debug_loc      0x00000000     0x28d2
- *(.debug_loc)
- .debug_loc     0x00000000      0x514 debug\Flurry_platform.os
- .debug_loc     0x00000514      0x264 debug\Flurry.os
- .debug_loc     0x00000778       0x4d debug\Flurry_register.os
- .debug_loc     0x000007c5      0x120 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .debug_loc     0x000008e5      0xfef e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_loc     0x000018d4      0x2f9 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_loc     0x00001bcd      0x6cf e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_loc     0x0000229c      0x636 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-
-.debug_macinfo
- *(.debug_macinfo)
-
-.debug_weaknames
- *(.debug_weaknames)
-
-.debug_funcnames
- *(.debug_funcnames)
-
-.debug_typenames
- *(.debug_typenames)
-
-.debug_varnames
- *(.debug_varnames)
-
-.debug_pubtypes
- *(.debug_pubtypes)
-
-.debug_ranges   0x00000000      0x4e0
- *(.debug_ranges)
- .debug_ranges  0x00000000       0xf8 debug\Flurry_platform.os
- .debug_ranges  0x000000f8       0x80 debug\Flurry.os
- .debug_ranges  0x00000178       0x18 debug\Flurry_register.os
- .debug_ranges  0x00000190      0x1f8 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .debug_ranges  0x00000388       0x30 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .debug_ranges  0x000003b8       0xa0 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .debug_ranges  0x00000458       0x88 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
-
-.gnu.attributes
- *(.gnu.attributes)
-
-.note.gnu.arm.ident
- *(.note.gnu.arm.ident)
-
-/DISCARD/
- *(.note.GNU-stack)
- *(.gnu_debuglink)
-OUTPUT(E:\coolade-project\modules\Flurry\lib\android\libFlurry_d.so elf32-littlearm)
-
-.ARM.attributes
-                0x00000000       0x31
- .ARM.attributes
-                0x00000000       0x2d e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtbegin_so.o
- .ARM.attributes
-                0x0000002d       0x2b debug\Flurry_platform.os
- .ARM.attributes
-                0x00000058       0x2b debug\Flurry.os
- .ARM.attributes
-                0x00000083       0x2b debug\Flurry_register.os
- .ARM.attributes
-                0x000000ae       0x2b E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(IwDebug.o)
- .ARM.attributes
-                0x000000d9       0x2b E:\marmalade\6.2\s3e\edk\lib\android\libedk.a(edk_helpers.o)
- .ARM.attributes
-                0x00000104       0x19 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_aeabi_ldivmod.o)
- .ARM.attributes
-                0x0000011d       0x29 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(bpabi.o)
- .ARM.attributes
-                0x00000146       0x29 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(unwind-arm.o)
- .ARM.attributes
-                0x0000016f       0x19 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(libunwind.o)
- .ARM.attributes
-                0x00000188       0x29 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(pr-support.o)
- .ARM.attributes
-                0x000001b1       0x29 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_divdi3.o)
- .ARM.attributes
-                0x000001da       0x29 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivdi3.o)
- .ARM.attributes
-                0x00000203       0x19 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_udivsi3.o)
- .ARM.attributes
-                0x0000021c       0x19 e:/Program Files/Android/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.4.3\libgcc.a(_dvmd_lnx.o)
- .ARM.attributes
-                0x00000235       0x1f e:/Program Files/Android/android-ndk/platforms/android-9/arch-arm/usr/lib/crtend_so.o
+.bss            0x00006004     0x1a60
+ .bss           0x00006004       0x38 debug\Flurry_platform.os
+ .bss           0x0000603c     0x1a28 C:\marmalade\7.5\s3e\edk\lib\android/libedk.a(IwDebug.o)
+                0x0000603c                g_DebugGlobals
