@@ -41,8 +41,7 @@ class Flurry
     public void s3eFlurryStartSession(String apiKey)
     {
 		android.util.Log.d(TAG, "s3eFlurryStartSession");
-		android.util.Log.d(TAG, apiKey);
-		
+
 		FlurryAgent.onStartSession(LoaderActivity.m_Activity, apiKey);
 		//FlurryAgent.setLogEnabled(true);
 		//FlurryAgent.setLogEvents(true);
@@ -57,8 +56,6 @@ class Flurry
 	
 	public void s3eFlurrySetUserID(String userId)
     {
-        android.util.Log.d(TAG, "SUId "+userId);
-		
 		FlurryAgent.setUserId(userId);
     }
 	
@@ -95,7 +92,7 @@ class Flurry
 	
     public void s3eFlurryLogEventParams(String eventName, String eventParams)//, Map<String, String> params)
     {
-        android.util.Log.d(TAG, "LEP " + eventName + " - " + eventParams);
+        android.util.Log.d(TAG, "LEP " + eventName);
 
 		FlurryAgent.logEvent(eventName, ParamsToMap(eventParams));
 		//FlurryAgent.logEvent(eventName);
@@ -103,7 +100,7 @@ class Flurry
 	
     public void s3eFlurryLogEventParamsTimed(String eventName, String eventParams)//, Map<String, String> params)
     {
-        android.util.Log.d(TAG, "LEPT " + eventName + " - " + eventParams);
+        android.util.Log.d(TAG, "LEPT " + eventName);
 		
 		//FlurryAgent.logEvent(eventName,params,true); //guessing that the boolean is bTimed???? method has no documentation
 		FlurryAgent.logEvent(eventName, ParamsToMap(eventParams), true);
@@ -111,7 +108,7 @@ class Flurry
 	
     public void s3eFlurryEndTimedEvent(String eventName, String eventParams)//, Map<String, String> params)
     {
-        android.util.Log.d(TAG, "ETE " + eventName + " - " + eventParams);
+        android.util.Log.d(TAG, "ETE " + eventName);
 		
 		FlurryAgent.endTimedEvent(eventName); //only implementation I could find in Android jar
     }
