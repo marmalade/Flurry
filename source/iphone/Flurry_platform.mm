@@ -6,7 +6,7 @@
 #define IW_USE_SYSTEM_STDLIB
 
 #include "IwDebug.h"
-#import "Flurry/FlurryAPI.h"
+#import "../../flurry/iphone/Flurry.h"
 #import "Flurry_internal.h"
 
 #import <UIKit/UIKit.h>

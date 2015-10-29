@@ -11,4 +11,12 @@
 #define S3E_EXT_FLURRY_NAME "Flurry"
 #define S3E_EXT_FLURRY_HASH 0xfdb1a7c9
 
+#ifdef S3E_EXT_REGISTER
+#ifndef S3E_EXT_REGISTER_KEY
+#define S3E_EXT_REGISTER_KEY(name, num, key) S3E_EXT_REGISTER(name, num)
+#endif
+S3E_EXT_REGISTER("Flurry", 13)
+#else
+
+#endif /* S3E_EXT_REGISTER */
 #endif /* !FLURRY_AUTODEFS_H */
